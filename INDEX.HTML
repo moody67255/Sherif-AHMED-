@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherif Ahmed - Links</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f3ef;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #111;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 6px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 25px 15px;
+            text-decoration: none;
+            color: #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .card i {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .card span {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        /* Hover Effects */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Black TikTok Featured Card */
+        .card.tiktok {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            border: 1px solid #0d0d0d;
+        }
+
+        .card.tiktok:hover {
+            background-color: #1f1f1f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Header -->
+        <div class="header">
+            <h1>Sherif Ahmed</h1>
+            <p>Administrative Security Director at Ecopack</p>
+        </div>
+
+        <!-- Links Grid -->
+        <div class="grid">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/201000442617" target="_blank" class="card">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/sherifaboahmed82" target="_blank" class="card">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <!-- TikTok (Featured Dark Style) -->
+            <a href="https://www.tiktok.com/@sherifahmd00" target="_blank" class="card tiktok">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1C3V4AoMNU/" target="_blank" class="card">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+
+            <!-- Phone Call -->
+            <a href="tel:+201000442617" class="card">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call Me</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:contact@sherifahmed.com" class="card">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
